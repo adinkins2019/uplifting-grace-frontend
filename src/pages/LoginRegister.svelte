@@ -1,6 +1,9 @@
 <script>
     import LoginForm from '../components/LoginForm.svelte'
-    import RegisterFrom from '../components/RegisterForm.svelte'
+    import RegisterForm from '../components/RegisterForm.svelte'
 </script>
-<main></main>
+<main>
+    <LoginForm />
+    <RegisterForm />
+</main>
 <style></style>

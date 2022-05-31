@@ -11,7 +11,7 @@
 <Form on:submit={handleSubmit}>
     <input type="text" name="username" id="username">
     <input type="password" name="password" id="password">
-    <button type="submit"></button>
+    <button type="submit">Login</button>
 </Form>
 
 <style>

@@ -1,30 +1,10 @@
 <script>
 	export let name;
+	import LoginRegister from './pages/LoginRegister.svelte'
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1 class='text-6xl font-bold underline bg-blue-500'>Hello {name}!</h1>
+	<p>Visit the <a href="https://svelte.de bg-blue-v/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<LoginRegister/>
 </main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
